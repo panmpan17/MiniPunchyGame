@@ -1,0 +1,12 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "22deddddb38240b69ac71c2b21582f52",
+    "Name": "SoundCollectionPlayer",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "DefaultValue": {
+        "Type": { "Id": "22deddddb38240b69ac71c2b21582f52", "Name": "SoundCollectionPlayer" }
+    }
+}]

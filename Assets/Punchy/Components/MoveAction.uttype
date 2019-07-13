@@ -1,0 +1,37 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "4c604686138b4f3d90b1bdfa49f506ef",
+    "Name": "MoveAction",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "19607baa84454f0ebcc3468cf9d9666a",
+        "Name": "progress",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "497efccf1115451a9949febdabe04121",
+        "Name": "duration",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "d2cf7f8ccf284e52af607a9fdac44eb8",
+        "Name": "destination",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "09948c2358d0420293b8082d591af2aa",
+        "Name": "original",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "4c604686138b4f3d90b1bdfa49f506ef", "Name": "MoveAction" }
+    }
+}]

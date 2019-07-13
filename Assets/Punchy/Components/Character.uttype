@@ -1,0 +1,48 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "fb31f4cb3efc442c9c9679eaf619d936",
+    "Name": "Character",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "a3a4c696bd134bd7bc15b2fb61e09126",
+        "Name": "punch",
+        "FieldType": { "Id": "2b477f505af74487b7092b5617d88d3f", "Name": "Boolean" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "99e060c5a31b4e7e98f99c8f0f6222d7",
+        "Name": "punchedSprite",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "c7b018e69a8a400cbb69cc22866c8296",
+        "Name": "sprite",
+        "FieldType": { "Id": "cf54a635a25248ab87f2563bb840ed5b", "Name": "SpriteEntity" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "f24baad380ea4d8a85a8cc9d67812eea",
+        "Name": "recoveryProgress",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }, {
+        "Id": "224ec427053b43cfab0f3d141cba8b65",
+        "Name": "destinatedRecovery",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "fb31f4cb3efc442c9c9679eaf619d936", "Name": "Character" },
+        "Properties": {
+            "punch": false,
+            "punchedSprite": { "$TypeId": 10, "Guid": "d9a9e1a588f6f444493f6f062d724f37", "FileId": 21300000, "Type": 3 },
+            "sprite": { "$TypeId": 10, "Guid": "003a3f9083b824c14a1ac0a2db93bb08", "FileId": 21300000, "Type": 3 }
+        }
+    }
+}]

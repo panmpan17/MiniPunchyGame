@@ -1,0 +1,28 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "d3fa4cf463ac469685abc1154a4bf79f",
+    "Name": "Star",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "549a3a14f0774de4b58094120ec157c8",
+        "Name": "direction",
+        "FieldType": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+        "Array": false,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "d3fa4cf463ac469685abc1154a4bf79f", "Name": "Star" },
+        "Properties": {
+            "direction": {
+                "Type": { "Id": "3abb69286ddfc2d1c617a173c1eeb35d", "Name": "Vector2" },
+                "Properties": {
+                    "x": 1,
+                    "y": 1
+                }
+            }
+        }
+    }
+}]

@@ -1,0 +1,19 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "0053c41f69d040fbbe7bb6822bc1209b",
+    "Name": "SoundCollection",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "c231177cefd04bf9ba91eea07ca1066c",
+        "Name": "sounds",
+        "FieldType": { "Id": "1ae8c073dc444f4fb2d3120e5e618326", "Name": "AudioClipEntity" },
+        "Array": true,
+        "Visibility": 0
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "0053c41f69d040fbbe7bb6822bc1209b", "Name": "SoundCollection" }
+    }
+}]

@@ -1,0 +1,35 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "4dc6093ffdec4ce6a3d3ac116d7fd0a7",
+    "Name": "GruntGroup",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "0904233b460a49709449a87417e1acc7", "Name": "Grunt" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "0904233b460a49709449a87417e1acc7",
+    "Name": "Grunt",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "a60aa1b9ad84a83eefb0d5382a4d5967", "Name": "AudioSource" }
+    }, {
+        "Type": { "Id": "0053c41f69d040fbbe7bb6822bc1209b", "Name": "SoundCollection" },
+        "Properties": {
+            "sounds": {
+                "Type": { "Id": "1ae8c073dc444f4fb2d3120e5e618326", "Name": "AudioClipEntity" },
+                "Items": [
+                    { "$TypeId": 10, "Guid": "86e4d3c7733e940788b75e46fb735bd6", "FileId": 8300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "2622e2c1c84f5482a98c41656ed9cad1", "FileId": 8300000, "Type": 3 },
+                    { "$TypeId": 10, "Guid": "be2f3aeb2a12b40efb1b7b2782a077d9", "FileId": 8300000, "Type": 3 }
+                ]
+            }
+        }
+    }, {
+        "Type": { "Id": "22deddddb38240b69ac71c2b21582f52", "Name": "SoundCollectionStart" }
+    }]
+}]

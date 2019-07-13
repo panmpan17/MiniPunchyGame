@@ -1,0 +1,64 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "573abd900b9148cc9b45602c41e66102",
+    "Name": "Character",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "47d94c5aab3a49d69a4ba25020173ee4", "Name": "Camera" },
+        { "$TypeId": 9, "Id": "537098ef9c194ac689d98b4523aa3e34", "Name": "Character" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "47d94c5aab3a49d69a4ba25020173ee4",
+    "Name": "Camera",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "12692383f3fef3bb74c209888c5b0939", "Name": "Camera2D" },
+        "Properties": {
+            "backgroundColor": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            },
+            "clearFlags": {
+                "$TypeId": 8,
+                "Type": { "Id": "76a06ddd38e99125d930e77c6a287872", "Name": "CameraClearFlags" },
+                "Id": "9faedc246f34513076701ef66b5ad74f",
+                "Name": "SolidColor",
+                "Value": 1
+            },
+            "depth": -1
+        }
+    }]
+},
+{
+    "$TypeId": 5,
+    "Id": "537098ef9c194ac689d98b4523aa3e34",
+    "Name": "Character",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "003a3f9083b824c14a1ac0a2db93bb08", "FileId": 21300000, "Type": 3 }
+        }
+    }, {
+        "Type": { "Id": "fb31f4cb3efc442c9c9679eaf619d936", "Name": "Character" },
+        "Properties": {
+            "destinatedRecovery": 0.5
+        }
+    }]
+}]
